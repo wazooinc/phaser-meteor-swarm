@@ -15,8 +15,9 @@ export default class PlayScene extends Phaser.Scene {
     const width = this.cameras.main.width
     const height = this.cameras.main.height
 
-
     this.score = 0
+
+    this.background = this.add.image(0, 0, 'starfield').setOrigin(0,0)
 
     this.player = this.physics.add.image(200, 200, 'player')
     this.player.setDrag(0.99)

@@ -12,6 +12,8 @@ export default class LoaderScene extends Phaser.Scene {
     this.load.image('meteor-med', 'assets/meteor_med.png')
     this.load.image('meteor-large', 'assets/meteor_large.png')
 
+    this.load.image('starfield', 'assets/starfield_800x600.jpg')
+
     this.load.bitmapFont(
       "arcade",
       "assets/fonts/arcade.png",
